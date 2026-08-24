@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divitt Jain's Boarding Pass</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card" tabindex="0">
+    <div class="stub stub--main">
+      <div class="eyebrow-row">
+        <span class="eyebrow">Boarding Pass</span>
+        <span class="ticket-no">GT&nbsp;·&nbsp;IE&nbsp;·&nbsp;2026</span>
+      </div>
+
+      <div class="identity">
+        <img
+          class="photo"
+          src="photo.jpg"
+          alt="Photo of Divitt Jain"
+          onerror="this.style.display='none'"
+        />
+        <div>
+          <h1 class="name">Divitt Jain</h1>
+          <p class="tagline">junior</p>
+        </div>
+      </div>
+
+      <div class="route">
+        <div class="route-point">
+          <span class="route-code">SEA</span>
+          <span class="route-city">Seattle, WA</span>
+        </div>
+        <div class="route-line">
+          <span class="dot dot--start"></span>
+          <span class="track"></span>
+          <span class="dot dot--end"></span>
+        </div>
+        <div class="route-point route-point--end">
+          <span class="route-code">ATL</span>
+          <span class="route-city">Atlanta, GA</span>
+          <span class="here-flag">you are here</span>
+        </div>
+      </div>
+
+      <div class="field-grid">
+        <div class="field">
+          <span class="field-label">Major</span>
+          <span class="field-value">Industrial Engineering</span>
+        </div>
+        <div class="field">
+          <span class="field-label">Year</span>
+          <span class="field-value">Junior</span>
+        </div>
+        <div class="field field--wide">
+          <span class="field-label">Passionate about</span>
+          <span class="field-value field-value--accent">Urban Mobility</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="perforation" aria-hidden="true"></div>
+
+    <div class="stub stub--tear">
+      <span class="tear-label">Bits of Good</span>
+      <div class="barcode" aria-hidden="true"></div>
+      <span class="tear-code">Admit One</span>
+    </div>
+  </main>
+</body>
+</html>
